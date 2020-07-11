@@ -28,4 +28,4 @@ The burrito is a monad 🌯
 
 ---
 
-Discuss this post on in the [GitHub issue](https://github.com/tom-sherman/blog/issues/1) or on Twitter.
+Discuss this post in the [GitHub issue](https://github.com/tom-sherman/blog/issues/1) or [on Twitter](https://twitter.com/tomus_sherman/status/1281960295024517123?s=19).
