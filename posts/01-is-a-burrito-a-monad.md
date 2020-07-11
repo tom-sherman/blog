@@ -26,6 +26,10 @@ Thus the burrito passes the third law.
 
 The burrito is a monad 🌯
 
+## Further reading
+
+[Burritos for the Hungry Mathematician](https://emorehouse.wescreates.wesleyan.edu/silliness/burrito_monads.pdf) by Ed Morehouse
+
 ---
 
 Discuss this post in the [GitHub issue](https://github.com/tom-sherman/blog/issues/1) or [on Twitter](https://twitter.com/tomus_sherman/status/1281960295024517123?s=19).
