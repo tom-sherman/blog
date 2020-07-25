@@ -26,6 +26,20 @@ Here's the TL;DR of how we have our cake and eat it too:
 
 Write all of your tests once using Jest as your framework. These will run in Node and JSDOM for local development to keep feedback loops tight. Then, usually part of CI, run these exact same tests in a browser environments.
 
+### Step 1: Install Karma and related plugins
+
+Karma is an amazingly versatile test runner, here we'll be using it to compile our tests, spawn a real life browser, and run our tests.
+
+### Step 2: Create a `karma.config.js`
+
+### Step 3: Add the webpack config
+
+Use one you already have for your application, configure one that is based off of your Jest babel file, or here's a basic one to get you started.
+
+### Step 4: Install browsers and browser launchers
+
+### Step 5: Run the tests!
+
 ---
 
 Discuss this post in the GitHub issue or on Twitter.
