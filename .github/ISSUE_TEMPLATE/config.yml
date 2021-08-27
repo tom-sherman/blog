@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discussions
+    url: https://github.com/tom-sherman/blog/discussions/new
+    about: Issues are disabled, please open a discussion instead 😊
