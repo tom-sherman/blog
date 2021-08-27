@@ -11,3 +11,7 @@ Ideally I would now disable issues so the tab is no longer accessible, but this 
 My solution here is to add a singular [PSA issue](https://github.com/tom-sherman/blog/issues/8) and use an [issue form](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository#configuring-the-template-chooser) to essentially forbit the creation of new issues, directing folks to create a discussion instead. Try it out yourself by trying to create an issue!
 
 It is possible to still create an issue by fiddling with the URL tho. This would greatly annoy me and I ask nicely for you, dear reader, not to do that.
+
+---
+
+Discuss this post in the [GitHub discussion](https://github.com/tom-sherman/blog/discussions/9).
