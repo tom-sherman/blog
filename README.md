@@ -2,7 +2,7 @@
 
 A space for my mostly incoherent ramblings.
 
-Got a question? [Open an issue](https://github.com/tom-sherman/blog/issues/new?assignees=&labels=question&template=question.md&title=) or [DM me](https://twitter.com/tomus_sherman)!
+Got a question? [Create a discussion](https://github.com/tom-sherman/blog/discussions/new?category=AMA) or [DM me](https://twitter.com/tomus_sherman)!
 
 ## Posts
 
