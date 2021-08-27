@@ -189,4 +189,4 @@ I'd love to know if this solution worked (or didn't work) for you, and if you ha
 
 ---
 
-Discuss this post in the [GitHub issue](https://github.com/tom-sherman/blog/issues/3) or [on Twitter](https://twitter.com/tomus_sherman/status/1287153112172638209).
+Discuss this post in the [GitHub discussion](https://github.com/tom-sherman/blog/discussions/6) or [on Twitter](https://twitter.com/tomus_sherman/status/1287153112172638209).

@@ -32,4 +32,4 @@ The burrito is a monad 🌯
 
 ---
 
-Discuss this post in the [GitHub issue](https://github.com/tom-sherman/blog/issues/1) or [on Twitter](https://twitter.com/tomus_sherman/status/1281960295024517123?s=19).
+Discuss this post in the [GitHub discussion](https://github.com/tom-sherman/blog/discussions/7) or [on Twitter](https://twitter.com/tomus_sherman/status/1281960295024517123?s=19).
