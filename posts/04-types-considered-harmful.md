@@ -18,6 +18,12 @@ If you're still not convinced, here are some other reasons:
 - **JavaScript users get autocompletion for free** in more scenarios without their editor having to expensive and slow npm lookups in the background
 - **Much easier to spelunk the source.** I can Cmd+Click to go to the types definition and the source code is nearby. With a seperate `@types/` package I have to go hunting in my node_modules folder. This is precious seconds I can spend making coffee or doomscrolling Twitter.
 
+## In defence of `@types`
+
+DefinitelyTyped, the folks that run it, and the folks that have contributed to it are to be appluaded. It's hard to see TypeScript spreading so far and wide without it, and for that - in the absense of dollars - I have to offer my thanks.
+
+I just think we've outgrown them.
+
 ---
 
 Discuss this post in the [GitHub discussion](https://github.com/tom-sherman/blog/discussions/10).
