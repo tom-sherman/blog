@@ -1,5 +1,8 @@
 # Converting this blog to GitHub Discussions
 
+> **Note** 2022-07-08 Update
+> I have since disabled issues. Frankly I can't remember why I cared so much about 404s to old issue links. Maybe they were linked from Twitter? Who knows.
+
 This blog is part cop out and part a statement about minimalism; _I'm going to manage the content with `git` anyways, why not host it with `git` too?_
 
 Up until now I've had issues enabled for discussing posts or asking me a question but since I created this blog GitHub have released the [Discusssions](https://docs.github.com/en/discussions) feature. This is a much better fit for a blog hosted within GitHub.
