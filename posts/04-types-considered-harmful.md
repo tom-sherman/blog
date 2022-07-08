@@ -17,3 +17,7 @@ If you're still not convinced, here are some other reasons:
 - **Another repository to raise issues in.** "Do I raise this in the package or the DefinitelyTyped repo?", this kind of friction can prevent helpful issues from being raised.
 - **JavaScript users get autocompletion for free** in more scenarios without their editor having to expensive and slow npm lookups in the background
 - **Much easier to spelunk the source.** I can Cmd+Click to go to the types definition and the source code is nearby. With a seperate `@types/` package I have to go hunting in my node_modules folder. This is precious seconds I can spend making coffee or doomscrolling Twitter.
+
+---
+
+Discuss this post in the [GitHub discussion](https://github.com/tom-sherman/blog/discussions/10).
