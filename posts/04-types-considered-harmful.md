@@ -4,7 +4,7 @@
 
 Let me start by telling you a very short story:
 
-Today I fixed a bug. The bug was caused by passing the wrong prop to a React Native component. I was passing `autoCompleteType`, the component wanted `autoComplete`.
+Today I fixed a bug. The bug was caused by passing the [wrong prop](https://github.com/facebook/react-native/commit/18132c159773c6cedb2f74c7cf92a10987ea03d7) to a React Native component. I was passing `autoCompleteType`, the component wanted `autoComplete`.
 
 > But don't you use TypeScript? Wouldn't this be a type error?
 
