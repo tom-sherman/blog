@@ -42,31 +42,28 @@ We'll be using [karma-jasmine](https://github.com/karma-runner/karma-jasmine) be
 
 ```javascript
 module.exports = function (config) {
-    config.set({
-        plugins: [
-            'karma-webpack',
-            'karma-jasmine',
-        ],
+  config.set({
+    plugins: ["karma-webpack", "karma-jasmine"],
 
-        // base path that will be used to resolve all patterns (eg. files, exclude)
-        basePath: '',
+    // base path that will be used to resolve all patterns (eg. files, exclude)
+    basePath: "",
 
-        // frameworks to use
-        // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-        frameworks: ['jasmine'],
+    // frameworks to use
+    // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
+    frameworks: ["jasmine"],
 
-        // list of files / patterns to load in the browser
-        // Here I'm including all of the the Jest tests which are all under the __tests__ directory.
-        // You may need to tweak this patter to find your test files/
-        files: ['__tests__/**/*.js'],
+    // list of files / patterns to load in the browser
+    // Here I'm including all of the the Jest tests which are all under the __tests__ directory.
+    // You may need to tweak this patter to find your test files/
+    files: ["__tests__/**/*.js"],
 
-        // preprocess matching files before serving them to the browser
-        // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
-        preprocessors: {
-            // Use webpack to bundle our tests files
-            'packages/*/__tests__/**/*.ts': ['webpack'],
-        },
-    });
+    // preprocess matching files before serving them to the browser
+    // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
+    preprocessors: {
+      // Use webpack to bundle our tests files
+      "packages/*/__tests__/**/*.ts": ["webpack"],
+    },
+  });
 };
 ```
 
@@ -76,13 +73,13 @@ You can use one that you already have for your application or configure one that
 
 ```javascript
 module.exports = function (config) {
-    config.set({
-        // ...
-        webpack: {
-            // Your webpack config here
-        }
-        // ...
-    });
+  config.set({
+    // ...
+    webpack: {
+      // Your webpack config here
+    },
+    // ...
+  });
 };
 ```
 
@@ -94,16 +91,16 @@ This is where the magic happens. There are things that Jest provides as part of 
 
 ```javascript
 // the jest.fn() API
-import jest from 'jest-mock';
+import jest from "jest-mock";
 // The matchers API
-import expect from 'expect';
+import expect from "expect";
 
 // Add missing Jest functions
 window.test = window.it;
-window.test.each = inputs => (testName, test) =>
-    inputs.forEach(args => window.it(testName, () => test(...args)));
+window.test.each = (inputs) => (testName, test) =>
+  inputs.forEach((args) => window.it(testName, () => test(...args)));
 window.test.todo = function () {
-    return undefined;
+  return undefined;
 };
 window.jest = jest;
 window.expect = expect;
@@ -117,19 +114,18 @@ Note that I have defined the parts of the Jest API I need, so if you use other p
 // karma.conf.js
 
 module.exports = function (config) {
-    config.set({
-        // ...
-        files: ['./scripts/karma-setup.js', 'packages/*/__tests__/**/*.ts'],
+  config.set({
+    // ...
+    files: ["./scripts/karma-setup.js", "packages/*/__tests__/**/*.ts"],
 
-        preprocessors: {
-            './karma-setup.js': ['webpack'],
-            'packages/*/__tests__/**/*.ts': ['webpack'],
-        },
-        // ...
-    });
+    preprocessors: {
+      "./karma-setup.js": ["webpack"],
+      "packages/*/__tests__/**/*.ts": ["webpack"],
+    },
+    // ...
+  });
 };
 ```
-
 
 ### Step 5: Install browsers and browser launchers
 
@@ -149,19 +145,19 @@ npm i karma-chrome-launcher -D
 // karma.conf.js
 
 module.exports = function (config) {
-    config.set({
-        // ...
-        plugins: [
-            'karma-webpack',
-            'karma-jasmine',
-            // Adding it to the plugins array
-            'karma-chrome-launcher',
-        ],
+  config.set({
+    // ...
+    plugins: [
+      "karma-webpack",
+      "karma-jasmine",
+      // Adding it to the plugins array
+      "karma-chrome-launcher",
+    ],
 
-        // I'm starting a headless browser, but I can also swap this out for "Chrome" to add debug statements, inspect console logs etc.
-        browsers: ['ChromeHeadless'],
-        // ...
-    });
+    // I'm starting a headless browser, but I can also swap this out for "Chrome" to add debug statements, inspect console logs etc.
+    browsers: ["ChromeHeadless"],
+    // ...
+  });
 };
 ```
 
@@ -171,13 +167,13 @@ Add a script to your package.json scripts, maybe call it "browser-tests"
 
 ```json
 {
-    "scripts": {
-        "browser-tests": "karma start"
-    }
+  "scripts": {
+    "browser-tests": "karma start"
+  }
 }
 ```
 
-And then run `npm run browser-tests` to the start the tests. 
+And then run `npm run browser-tests` to the start the tests.
 
 ## Summary
 

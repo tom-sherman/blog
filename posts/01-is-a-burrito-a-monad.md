@@ -8,19 +8,19 @@ Now to the main event, is a burrito monad? Well let's see if it obeys the three 
 
 ## Left identity
 
-Take your filling, put it in a burrito - toast it - take the filling back out - the filling is warm just as if you toasted the filling itself. 
+Take your filling, put it in a burrito - toast it - take the filling back out - the filling is warm just as if you toasted the filling itself.
 
 So the burrito passes the first law.
 
-## Right identity 
+## Right identity
 
-Unwrap the burrito to get to the filling. 
+Unwrap the burrito to get to the filling.
 
 The burrito passes the second law.
 
 ## Associativity
 
-Putting hot sauce in your burrito and then toasting it is the same as toasting it and putting hot sauce in your burrito. 
+Putting hot sauce in your burrito and then toasting it is the same as toasting it and putting hot sauce in your burrito.
 
 Thus the burrito passes the third law.
 

@@ -1,0 +1,9 @@
+{
+  "name": "blog",
+  "description": "",
+  "private": true,
+  "author": "Tom Sherman",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
