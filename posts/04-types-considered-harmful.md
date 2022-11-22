@@ -1,3 +1,9 @@
+---
+title: "`@types` Considered Harmful"
+createdAt: "2022-09-03"
+tags: ["typescript", "javascript", "open-source"]
+---
+
 # `@types` Considered Harmful
 
 > and I think we as a TypeScript community should actively discourage their usage.

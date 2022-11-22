@@ -1,3 +1,10 @@
+---
+slug: "is-a-burrito-a-monad"
+title: "Is a burrito a monad?"
+createdAt: "2020-07-11"
+tags: ["functional-programming"]
+---
+
 # Is a burrito a monad?
 
 As we all know, a monad is just a monoid in the category of endofunctors. This is intuitive to you and I, but what if you need to explain what a monad is in more practical terms. Well that's where the three laws of monads come in.

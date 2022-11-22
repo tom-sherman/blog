@@ -1,3 +1,10 @@
+---
+status: "unlisted"
+title: "Converting to GitHub Discussions"
+createdAt: "2021-08-27"
+tags: ["github", "blogging"]
+---
+
 # Converting this blog to GitHub Discussions
 
 > **Note** 2022-07-08 Update
