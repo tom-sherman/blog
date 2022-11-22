@@ -7,7 +7,7 @@ tags: ["testing", "jest", "javascript"]
 
 # Running Jest Tests in a Real Browser
 
-If you didn't know, Jest is in my opinion the best testing framework for modern JavaScript and TypeScript. The developer experience is so smooth and lightning fast (lightning smooth?) which makes chasing that holy grail of 100% unit test coverage a breeze. Unfortunately, like many things, unit tests do not offer you 100% protection. To explain why I'd love for you to indulge me while I tell a very short story;
+If you didn't know, Jest is in my opinion the best testing framework for modern JavaScript and TypeScript. The developer experience is so smooth and lightning fast (lightning smooth?) which makes chasing that holy grail of 100% unit test coverage a breeze. Unfortunately, like many things, unit tests do not offer you 100% protection. To explain why I'd love for you to indulge me while I tell a very short story.
 
 ## The unit test footgun
 
