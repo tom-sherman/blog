@@ -1,4 +1,5 @@
 ---
+slug: "converting-to-github-discussions"
 status: "unlisted"
 title: "Converting to GitHub Discussions"
 createdAt: "2021-08-27"
