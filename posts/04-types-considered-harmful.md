@@ -1,4 +1,5 @@
 ---
+slug: "types-consdered-harmful"
 title: "`@types` Considered Harmful"
 createdAt: "2022-09-03"
 tags: ["typescript", "javascript", "open-source"]
