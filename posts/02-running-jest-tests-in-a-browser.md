@@ -1,4 +1,5 @@
 ---
+slug: "running-jest-tests-in-browser"
 title: "Running Jest Tests in a Real Browser"
 createdAt: "2020-07-25"
 tags: ["testing", "jest", "javascript"]
