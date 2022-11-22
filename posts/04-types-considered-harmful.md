@@ -31,6 +31,6 @@ DefinitelyTyped, the folks that run it, and the folks that have contributed to i
 
 I just think we've outgrown them.
 
----
+----
 
 Discuss this post in the [GitHub discussion](https://github.com/tom-sherman/blog/discussions/10) or [on Twitter](https://twitter.com/tomus_sherman/status/1545436204119822336).
