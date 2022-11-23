@@ -37,6 +37,6 @@ The burrito is a monad 🌯
 
 [Burritos for the Hungry Mathematician](https://emorehouse.wescreates.wesleyan.edu/silliness/burrito_monads.pdf) by Ed Morehouse
 
----
+----
 
 Discuss this post in the [GitHub discussion](https://github.com/tom-sherman/blog/discussions/7) or [on Twitter](https://twitter.com/tomus_sherman/status/1281960295024517123?s=19).
