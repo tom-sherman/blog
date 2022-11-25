@@ -13,7 +13,7 @@ TypeScript 4.9 adds a new keyword: `satisfies`. You can read about it on the blo
 
 We can use this to our advantage when defining Remix loaders.
 
-```tsx
+```ts
 type Loader = (args: DataFunctionArgs) => Promise<Response> | Response;
 
 export const loader = (async () => new Response("Hello, world!")) satisfies Loader;
@@ -23,7 +23,7 @@ export const loader = (async () => new Response("Hello, world!")) satisfies Load
 
 Let's first look at an example that we would like to have a type error:
 
-```ts
+```tsx
 export const loader = () => {
   const message = "hello world";
 };
