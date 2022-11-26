@@ -9,7 +9,7 @@ tags: ["typescript", "javascript", "remix"]
 
 ## TL;DR - show me the code!
 
-TypeScript 4.9 adds a new keyword: `satisfies`. You can read about it on the blog post but the abridged version is that it allows you to specify a value conforms to a specific type, but without changing (either widening or narrowing) the type of the value.
+TypeScript 4.9 adds a new keyword: `satisfies`. You can read about it on [the blog post](https://devblogs.microsoft.com/typescript/announcing-typescript-4-9/#satisfies) but the abridged version is that it allows you to specify a value conforms to a specific type, but without changing (either widening or narrowing) the type of the value.
 
 We can use this to our advantage when defining Remix loaders.
 
