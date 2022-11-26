@@ -190,6 +190,6 @@ Now, this is a lot of setup but you do get massive benefits at the end of it. I 
 
 I'd love to know if this solution worked (or didn't work) for you, and if you have any questions just let me know!
 
-----
+---
 
 Discuss this post in the [GitHub discussion](https://github.com/tom-sherman/blog/discussions/6) or [on Twitter](https://twitter.com/tomus_sherman/status/1287153112172638209).
