@@ -1,11 +1,11 @@
 ---
 slug: "mastodon-domain-alias-on-remix"
-title: "Remix: Satisfying TypeScript with the `satisfies` keyword"
+title: "Remix: Creating a Mastodon alias with your custom domain"
 createdAt: "2022-12-20"
 tags: ["typescript", "javascript", "remix", "mastdodon"]
 ---
 
-# Remix: Creating a Mastodon alias with your custom domain.
+# Remix: Creating a Mastodon alias with your custom domain
 
 https://fosstodon.org/@tomsherman/109547084606024642
 
