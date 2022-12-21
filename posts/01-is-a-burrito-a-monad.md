@@ -1,6 +1,7 @@
 ---
 slug: "is-a-burrito-a-monad"
 title: "Is a burrito a monad?"
+description: "Yes. Yes it is."
 createdAt: "2020-07-11"
 tags: ["functional-programming"]
 ---
