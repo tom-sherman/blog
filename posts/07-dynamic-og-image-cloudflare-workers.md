@@ -2,7 +2,7 @@
 slug: "dynamic-og-image-cloudflare-workers"
 title: "Dynamic Open Graph Images with Cloudflare Workers"
 createdAt: "2022-12-26"
-tags: ["typescript", "workers", "cloudflare]
+tags: ["typescript", "workers", "cloudflare"]
 ---
 
 # Dynamic Open Graph Images with Cloudflare Workers
