@@ -13,7 +13,7 @@ This blog dynamically renders Open Graph images using HTML and React, running on
 2. Use [Yoga](https://github.com/facebook/yoga) and [Satori](https://github.com/vercel/satori) to convert that HTML to SVG
 3. Render the SVG to PNG using [resvg](https://github.com/RazrFalcon/resvg)
 
-All three of these steps are done in either JS or WASm, so they can be run in a Cloudflare Worker. The final result is a PNG image that can be used as an Open Graph image.
+All three of these steps are done in either JS (1) or WASM (2 & 3), so they can be run in a Cloudflare Worker. The final result is a PNG image that can be used as an Open Graph image.
 
 All of these steps are wrapped up in a single class `ImageResponse` that takes a React component and instantiates a `Response` object with the rendered PNG in the body. This class comes from the great [workers-og](https://github.com/kvnang/workers-og) project, which wraps all of steps above.
 
