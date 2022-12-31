@@ -3,7 +3,6 @@ slug: "serverless-xstate"
 title: "Serverless XState"
 createdAt: "2022-12-31"
 tags: ["aws", "xstate", "javascript"]
-status: "unlisted"
 ---
 
 # Serverless XState
