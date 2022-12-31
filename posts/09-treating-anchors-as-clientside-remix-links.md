@@ -1,9 +1,8 @@
 ---
 slug: "treating-anchors-as-clientside-remix-links"
 title: "Remix: Treating anchors as client-side links"
-createdAt: "2023-01-01"
+createdAt: "2022-12-31 01:25:00"
 tags: ["remix", "javascript"]
-status: "unlisted"
 ---
 
 # Remix: Treating anchors as client-side links
