@@ -7,4 +7,4 @@ status: "unlisted"
 
 # Test post pls ignore
 
-[A link to another post](./07-dynamic-og-image-cloudflare-workers)
+[A link to another post](./07-dynamic-og-image-cloudflare-workers.md)
