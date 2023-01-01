@@ -70,3 +70,5 @@ Just call `useClientNavigationLinks()` in your app root component, or in any rou
 ---
 
 Props to [Jacob Ebey](https://twitter.com/ebey_jacob/status/1606831880208551936) for the idea! I extended the snippet in that Tweet to handle more edge cases (listed above).
+
+Also thanks to [Tim (@tpillard)](https://twitter.com/tpillard/status/1609087060492656640) for pointing out that the code can use [`.closest()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/closest) instead of an explicit `while` loop, and also noting another edge case (`download` attribute).
