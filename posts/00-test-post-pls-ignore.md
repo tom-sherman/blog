@@ -1,7 +1,7 @@
 ---
-slug: "Test post"
+slug: "test-post"
 title: "Test post"
-createdAt: "2022-12-31"
+createdAt: "2023-01-01"
 status: "unlisted"
 ---
 
