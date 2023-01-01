@@ -23,16 +23,8 @@ export function useClientNavigationLinks() {
     document.addEventListener(
       "click",
       (event) => {
-        let target = event.target;
-        // Find the first parent anchor element
-        while (target && target !== document) {
-          if (target instanceof HTMLAnchorElement) {
-            break;
-          }
-          target = (target as any)?.parentNode;
-        }
-
-        if (!(target instanceof HTMLAnchorElement)) return;
+        const target = (event.target as Partial<HTMLElement>).closest?.("a");
+        if (!target) return;
 
         const url = new URL(target.href, location.origin);
         if (
@@ -44,7 +36,8 @@ export function useClientNavigationLinks() {
           // Ignore right clicks
           event.button === 0 &&
           // Ignore if `target="_blank"`
-          [null, undefined, "", "self"].includes(target.target)
+          [null, undefined, "", "self"].includes(target.target) &&
+          !target.hasAttribute("download")
         ) {
           console.log(
             "Treating anchor as <Link> and navigating to:",
@@ -68,6 +61,7 @@ This hook will intercept all clicks on anchor elements and if they are internal 
 - It ignores clicks with modifiers (ctrl, meta, shift). This allows the user to open the link in a new tab or copy the link.
 - Ignores right clicks for the same reason.
 - Ignores links that are marked as `target="_blank"`. We want these to work as normal links and open in a new tab.
+- Ignores links that have the `download` attribute. Otherwise the browser won't download the file.
 
 ## Usage
 
