@@ -28,13 +28,13 @@ type RouteParams<`${infer Start}:${infer Param}`>               = {[k in Param]:
 type RouteParams<any>                                           = {};
 ```
 
-This is a type that extracts the route parameters from a string. It's equivalent to this current syntax:
+This is a type that extracts the route parameters from a string eg. `RouteParams<"/user/:id">` would output the type `{ id: string }`. It's equivalent to this current syntax:
 
 ```ts
-type ExtractRouteParams<T extends string> = string extends T
+type RouteParams<T extends string> = string extends T
   ? Record<string, string>
   : T extends `${infer Start}:${infer Param}/${infer Rest}`
-  ? { [k in Param | keyof ExtractRouteParams<Rest>]: string }
+  ? { [k in Param | keyof RouteParams<Rest>]: string }
   : T extends `${infer Start}:${infer Param}`
   ? { [k in Param]: string }
   : {};
