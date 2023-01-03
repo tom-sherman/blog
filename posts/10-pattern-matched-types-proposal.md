@@ -7,14 +7,14 @@ tags: ["typescript", "functional-programming"]
 
 # Pattern Matched Types Proposal for TypeScript
 
-[![""](https://user-images.githubusercontent.com/9257001/210391155-736cde4e-fb23-4285-a0bd-09d227734e5f.png)](https://twitter.com/sebastienlorber/status/1610293422727766016)
-
-
 I propose a new feature for TypeScript that allows for pattern matching on types. This proposal is a [straw man](https://en.wikipedia.org/wiki/Straw_man_proposal) and I haven't quite thought through all the details, but I think it's a good starting point for discussion.
 
 ## The problem
 
 TypeScript conditional types can become very unweildy when you nest them. They are also (subjectively) ugly and some developers find them hard to read and grok.
+
+
+[![""](https://user-images.githubusercontent.com/9257001/210391155-736cde4e-fb23-4285-a0bd-09d227734e5f.png)](https://twitter.com/sebastienlorber/status/1610293422727766016)
 
 ## The solution
 
