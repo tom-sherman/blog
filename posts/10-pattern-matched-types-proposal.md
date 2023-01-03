@@ -13,8 +13,7 @@ I propose a new feature for TypeScript that allows for pattern matching on types
 
 TypeScript conditional types can become very unweildy when you nest them. They are also (subjectively) ugly and some developers find them hard to read and grok.
 
-
-[![""](https://user-images.githubusercontent.com/9257001/210391155-736cde4e-fb23-4285-a0bd-09d227734e5f.png)](https://twitter.com/sebastienlorber/status/1610293422727766016)
+[![""](https://user-images.githubusercontent.com/9257001/210391155-736cde4e-fb23-4285-a0bd-09d227734e5f.png)](https://twitter.com/sebastienlorber/status/1610243388174991360)
 
 ## The solution
 
