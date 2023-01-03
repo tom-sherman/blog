@@ -60,7 +60,7 @@ type Lucky<7> = "You're lucky";
 type Lucky<N extends number> = IsEven<N> extends true ? "At least you chose even" : "You're unlucky";
 ```
 
-As demonstrated also in the above snipped, this also supports capturing the matched value in a generic argument. Useful for mixing and matching pattern matching and classic conditional types.
+As demonstrated also in the above snipped, this supports capturing the matched value in a generic argument. Useful for mixing and matching pattern matching and classic conditional types.
 
 ## Maybe this is stupid
 
