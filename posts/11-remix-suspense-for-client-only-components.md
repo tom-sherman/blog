@@ -5,6 +5,8 @@ createdAt: "2023-02-02"
 tags: ["remix", "javascript", "react"]
 ---
 
+# Remix: Use Suspense for client-only components
+
 React 18 has this [cool pattern](https://beta.reactjs.org/reference/react/Suspense#providing-a-fallback-for-server-errors-and-server-only-content) for rendering content only on the client:
 
 ```tsx
