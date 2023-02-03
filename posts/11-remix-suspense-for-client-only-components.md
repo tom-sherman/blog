@@ -28,6 +28,8 @@ function Chat() {
 
 Here we use a `<Suspense>` boundary to render a loading component on the server, and then render the `<Chat>` component on the client. This works because React will retry rendering trees inside a suspense boundary on the client after they throw an error on the server.
 
+If you're using a streaming server rendering API eg. `renderToReadableStream` then you should start using this today!
+
 This is great for Remix apps, especially if you're using client-only components. We can move our chat component into `chat.client.tsx` to ensure that it's never included in our server bundle.
 
 ```tsx
