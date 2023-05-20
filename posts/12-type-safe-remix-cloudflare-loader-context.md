@@ -1,6 +1,6 @@
 ---
-slug: "type-safe-remix-cloudflare-loader-context"
 title: "Type safe context in Remix on Cloudflare Pages"
+slug: "type-safe-remix-cloudflare-loader-context"
 createdAt: "2023-02-11"
 tags: ["remix", "typescript"]
 ---

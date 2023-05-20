@@ -1,6 +1,6 @@
 ---
-slug: "remix-typescript-satisfies"
 title: "Remix: Satisfying TypeScript with the `satisfies` keyword"
+slug: "remix-typescript-satisfies"
 createdAt: "2022-11-23"
 tags: ["typescript", "javascript", "remix"]
 ---

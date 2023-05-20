@@ -1,6 +1,6 @@
 ---
-slug: "remix-suspense-for-client-only-components"
 title: "Use Suspense for client-only components"
+slug: "remix-suspense-for-client-only-components"
 createdAt: "2023-02-02"
 tags: ["remix", "javascript", "react"]
 ---

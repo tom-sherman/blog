@@ -1,6 +1,6 @@
 ---
-slug: "typescript-pattern-matched-types-proposal"
 title: "Pattern Matched Types Proposal"
+slug: "typescript-pattern-matched-types-proposal"
 createdAt: "2023-01-03"
 tags: ["typescript", "functional-programming"]
 ---

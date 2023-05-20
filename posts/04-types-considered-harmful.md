@@ -1,6 +1,6 @@
 ---
-slug: "types-consdered-harmful"
 title: "`@types` Considered Harmful"
+slug: "types-consdered-harmful"
 description: "and I think we as a TypeScript community should actively discourage their usage."
 createdAt: "2022-09-03"
 tags: ["typescript", "javascript", "open-source"]

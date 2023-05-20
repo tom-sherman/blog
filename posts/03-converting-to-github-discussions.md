@@ -1,7 +1,7 @@
 ---
 slug: "converting-to-github-discussions"
-status: "unlisted"
 title: "Converting to GitHub Discussions"
+status: "unlisted"
 createdAt: "2021-08-27"
 tags: ["github", "blogging"]
 ---
@@ -23,6 +23,6 @@ My solution here is to add a singular [PSA issue](https://github.com/tom-sherman
 
 It is possible to still create an issue by fiddling with the URL tho. This would greatly annoy me and I ask nicely for you, dear reader, not to do that.
 
-----
+---
 
 Discuss this post in the [GitHub discussion](https://github.com/tom-sherman/blog/discussions/9).

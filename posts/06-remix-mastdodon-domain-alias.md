@@ -1,6 +1,6 @@
 ---
-slug: "mastodon-domain-alias-on-remix"
 title: "Remix: Creating a Mastodon alias with your custom domain"
+slug: "mastodon-domain-alias-on-remix"
 createdAt: "2022-12-20"
 tags: ["typescript", "javascript", "remix", "mastdodon"]
 ---

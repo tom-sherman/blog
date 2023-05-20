@@ -1,6 +1,6 @@
 ---
-slug: "serverless-xstate"
 title: "Serverless XState"
+slug: "serverless-xstate"
 createdAt: "2022-12-31"
 tags: ["aws", "xstate", "javascript"]
 ---
