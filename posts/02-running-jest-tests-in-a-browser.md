@@ -45,7 +45,7 @@ npm i karma karma-jasmine webpack karma-webpack expect jest-mock -D
 
 We'll be using [karma-jasmine](https://github.com/karma-runner/karma-jasmine) because it's top-level API is almost identical to Jest's. We'll also be using [karma-webpack](https://github.com/webpack-contrib/karma-webpack) to bundle our tests together so they can be used in the browser.
 
-### Step 2: Create a `karma.config.js`
+### Step 2: Create a `karma.conf.js`
 
 ```javascript
 module.exports = function (config) {
