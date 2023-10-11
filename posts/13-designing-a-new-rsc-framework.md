@@ -1,6 +1,6 @@
 ---
-title: "Designing a new Server Component framework"
 slug: "designing-a-new-rsc-framework"
+title: "Designing a new Server Component framework"
 createdAt: "2023-10-11"
 status: "unlisted"
 ---
