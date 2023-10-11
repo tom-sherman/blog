@@ -12,3 +12,4 @@ status: "unlisted"
 - Could support multiple languages with the same framework.
 - Could avoid implementing it on every language/runtime using shared Rust code with an adapter for each language
 - Each runtime would need to hook into the JS bundler somehow to get client references
+- xx
