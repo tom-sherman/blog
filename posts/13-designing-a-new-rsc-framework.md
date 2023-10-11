@@ -32,6 +32,8 @@ It might make sense for this framework to enforce wrapping every client componen
 
 ## Two process architecture
 
+_There has to be a better name for this..._
+
 1. A client side portion that includes the bundler, router, and network wiring. This would be the more complex part but wouldd be agnostic to the server side.
 2. A server side portion that is specific to the language and runtime 
 
