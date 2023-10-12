@@ -10,7 +10,7 @@ Notes on designing a server component framework that is runtime and language agn
 
 ## What does that even mean?
 
-{% tweet link="https://twitter.com/acdlite/status/1709973074387283980" %}
+{% tweet link="https://twitter.com/acdlite/status/1709973074387283980" /%}
 
 Imagine you're a Rails developer, or a Laravel developer, or you'd prefer to deploy only Rust on your server for some reason. You might, for various reasons, have an aversion for server-side JavaScript.
 
