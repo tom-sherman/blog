@@ -10,7 +10,7 @@ Notes on designing a server component framework that is runtime and language agn
 
 ## What does that even mean?
 
-[#tweet#](https://twitter.com/acdlite/status/1709973074387283980)
+{% tweet link="https://twitter.com/acdlite/status/1709973074387283980" %}
 
 Imagine you're a Rails developer, or a Laravel developer, or you'd prefer to deploy only Rust on your server for some reason. You might, for various reasons, have an aversion for server-side JavaScript.
 
@@ -35,7 +35,7 @@ It might make sense for this framework to enforce wrapping every client componen
 _There has to be a better name for this..._
 
 1. A client side portion that includes the bundler, router, and network wiring. This would be the more complex part but wouldd be agnostic to the server side.
-2. A server side portion that is specific to the language and runtime 
+2. A server side portion that is specific to the language and runtime
 
 ## Multi language
 
