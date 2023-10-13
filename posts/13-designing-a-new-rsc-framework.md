@@ -48,3 +48,5 @@ This might require several different implementations on the server side of the f
 We would have hooks into and out of the bundler for the server side portion to interact with.
 
 We need to use the bundler output to load client references (stubs for client components). We also need to output information to the bundler to support things like server actions.
+
+As an MVP this bundler could be written in JS and run with Node, but it would be nice to have a bundler that can be distributed as a small-ish and static binary.
