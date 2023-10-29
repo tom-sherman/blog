@@ -18,9 +18,19 @@ Our theoretical framework would allow you to build the entire UI-layer of your a
 
 In this framework you'd be able to write your server components in any language you like, and then sprinkle in client components written in JS.
 
-## Server Side Rendering
+## Rendering HTML
 
-We would of course only be able to render our server components to HTML. SSR-ing the JS components isn't available to us because our constraint is that we don't want to run JS code on the server.
+There are really two strategies here: ahead of time (AOT) and just in time (JIT) rendering. React refers to both of these as "prerendering".
+
+### AOT prerendering
+
+This framework would be designed around the idea that we don't want JS running in production. I think though that we don't necessarily have to extend this constraint to build-time. We need to (probably) run Node.js here already after all to bundle our client components.
+
+Therefore we can do automatic build-time partial prerendering of the static parts of the client tree - just like Next.js 14 does.
+
+### JIT prerendering AKA "Server Side Rendering"
+
+Although prerendering works for the static parts of the tree at build time, SSR-ing the JS components at runtime isn't available to us because our constraint is that we don't want to run JS code on the server.
 
 This means we need to be very diligent with pushing our client components down to the leaves of our application, otherwise half of the page wouldn't be able to be server side rendered and we'd fallback to the experience of a single page application on the first load.
 
