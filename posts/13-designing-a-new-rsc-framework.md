@@ -1,7 +1,7 @@
 ---
 title: "Designing a new Server Component framework"
-createdAt: "2023-10-11"
 slug: "designing-a-new-rsc-framework"
+createdAt: "2023-10-11"
 ---
 
 # Designing a new React Server Component framework
