@@ -1,7 +1,7 @@
 ---
 title: "React Server Components for Terminal UIs"
 slug: "tui-react-server-components"
-createdAt: "2024-14-17"
+createdAt: "2024-04-17"
 status: "unlisted"
 ---
 
