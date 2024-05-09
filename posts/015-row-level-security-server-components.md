@@ -1,6 +1,6 @@
 ---
-slug: row-level-security-server-components
-createdAt: 2024-05-09
+slug: "row-level-security-server-components"
+createdAt: "2024-05-09"
 title: "Row Level Security for auth in Server Components"
 status: "draft"
 ---
